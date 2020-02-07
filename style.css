@@ -1,0 +1,410 @@
+body {
+  margin: 0;
+  padding: 0;
+  animation: bgcolor infinite 10s;
+}
+
+@keyframes bgcolor {
+  0% {
+    background: #00ee8f
+  }
+  10% {
+    background: #00eee0
+  }
+  20% {
+    background: #0084f2
+  }
+  30% {
+    background: #7e55f2
+  }
+  40% {
+    background: #ce57f2
+  }
+  50% {
+    background: #fd4ec0
+  }
+  60% {
+    background: #fe3b5a
+  }
+  70% {
+    background: #fe451a
+  }
+  80% {
+    background: #f9850f
+  }
+  90% {
+    background: #eed800
+  }
+  100% {
+    background: #2ced00
+  }
+}
+
+
+
+.digits {
+  visibility: hidden;
+  animation: move 1s linear;
+}
+@keyframes move{
+0%{
+  transform: translate(0);
+}
+50%{
+  transform: translate(100px);
+}
+
+
+}
+
+
+
+
+.clock-1 {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-300%, -50%);
+}
+
+.clock-2 {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-200%, -50%);
+}
+
+.clock-3 {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+}
+
+.clock-4 {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+}
+
+.clock-5 {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, -50%);
+}
+
+.clock-6 {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(200%, -50%);
+}
+
+
+
+.one1 {
+  width: 70px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.one2 {
+  width: 70px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 80px;
+}
+
+.two1 {
+  width: 30px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.two2 {
+  width: 110px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+}
+
+.two3 {
+  width: 100px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.two4 {
+  width: 30px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 120px;
+}
+
+.three1 {
+  width: 30px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.three2 {
+  width: 90px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.three3 {
+  width: 90px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.three4 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.four1 {
+  width: 30px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.four2 {
+  width: 80px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.four3 {
+  width: 100px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.four4 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.five1 {
+  width: 30px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.five2 {
+  width: 100px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.five3 {
+  width: 100px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.five4 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.six1 {
+  width: 30px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.six2 {
+  width: 100px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.six3 {
+  width: 80px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.six4 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.seven1 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.seven2 {
+  width: 100px;
+  height: 140px;
+  background-color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.seven3 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.eight1 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.eight2 {
+  width: 90px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.eight3 {
+  width: 90px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.eight4 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.nine1 {
+  width: 30px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.nine2 {
+  width: 80px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.nine3 {
+  width: 90px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.nine4 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.zero1 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+}
+
+.zero2 {
+  width: 90px;
+  height: 130px;
+  background-color: black;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.zero3 {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  margin-left: 130px;
+}
